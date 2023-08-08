@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 wget https://github.com/Bitofsin/VerusCliMining/blob/main/startverusminertermux.sh
 chmod +x startverusminertermux.sh
 pkg install -y proot proot-distro 
