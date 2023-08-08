@@ -1,6 +1,6 @@
 #!/bin/sh
 apt-get -y update && apt-get -y upgrade
-apt-get -y install libcurl4-openssl libjansson-dev libomp-dev git screen nano jq wget
+apt-get -y install libcurl4 openssl libjansson-dev libomp-dev git screen nano jq wget
 wget http://ports.ubuntu.com/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_arm64.deb
 dpkg -i libssl1.1_1.1.0g-2ubuntu4_arm64.deb
 rm libssl1.1_1.1.0g-2ubuntu4_arm64.deb
