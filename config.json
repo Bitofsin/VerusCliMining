@@ -2,13 +2,13 @@
 	"pools":[
 	{
 		"name": "proxy",
-        	"url": "stratum+tcp://12.0.0.154:4444",
+        	"url": "stratum+tcp://na.luckpool.net:3956",
 		"timeout": 150
 	}],
-	"user": "RAaS7mtVNVY2uxJi4m4sVkMLxnRCRrRuPJ",
+	"user": "RSZ2LTUESkABVfGFASxLSzddpLwcyjUiNj",
 	"pass": "x",
 	"algo": "verus",
-	"threads": 3,
+	"threads": 8,
 	"cpu-priority": 1,
 	"retry-pause": 5,
 	"api-allow": "192.168.0.0/16",
